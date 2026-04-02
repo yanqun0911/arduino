@@ -4,11 +4,11 @@
 #include <Update.h>
 
 //  請填入你的 WiFi 資訊
-#define WIFI_SSID     "your_ssid"
-#define WIFI_PASSWORD "your_password"
+#define WIFI_SSID     "iPhone kc"
+#define WIFI_PASSWORD "415621612"
 
 //  請填入 GitHub Pages 上的 .bin 檔連結（用 HTTPS）
-#define FIRMWARE_URL  "https://yourusername.github.io/esp32-ota/firmware.bin"
+#define FIRMWARE_URL  "https://github.com/yanqun0911/arduino/blob/main/OTAWebUpdater.ino.bin"
 
 void setup() {
   Serial.begin(115200);
